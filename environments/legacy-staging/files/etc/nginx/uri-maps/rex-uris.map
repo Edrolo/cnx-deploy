@@ -599,7 +599,7 @@
 ~/contents/(14fb4ad7-39a1-4eee-ab6e-3ef2482e3e22|FPtK1zmh)(@[.\d]+)?:(808e7285-11d0-51fe-94fb-1747bab95c65|gI5yhRHQ)(@[.\d]+)?(/[-%\w\d]+)?$    /books/anatomy-and-physiology/pages/index;
 ~/contents/(2e737be8-ea65-48c3-aa0a-9f35b4c6a966|LnN76Opl)(@[.\d]+)?(/[-%\w\d]+)?$    /books/astronomy/pages/1-introduction;
 ~/contents/(2e737be8-ea65-48c3-aa0a-9f35b4c6a966|LnN76Opl)(@[.\d]+)?:(b795b4f7-3318-4419-a338-8f5eeb0874ee|t5W09zMY)(@[.\d]+)?(/[-%\w\d]+)?$    /books/astronomy/pages/preface;
-~/contents/(2e737be8-ea65-48c3-aa0a-9f35b4c6a966|LnN76Opl)(@[.\d]+)?:(20861ec0-e3ec-5675-8661-1108137ce0a1|IIYewOPs)(@[.\d]+)?(/[-%\w\d]+)?$    /books/astronomy/pages/1-science-and-the-universe-a-brief-tour;
+~/contents/(2e737be8-ea65-48c3-aa0a-9f35b4c6a966|LnN76Opl)(@[.\d]+)?:(9d7fdb57-2ecc-5d9a-bdd9-de5d2ac2b1e6|nX_bVy7M)(@[.\d]+)?(/[-%\w\d]+)?$    /books/astronomy/pages/1-science-and-the-universe-a-brief-tour-teszt;
 ~/contents/(2e737be8-ea65-48c3-aa0a-9f35b4c6a966|LnN76Opl)(@[.\d]+)?:(ff8e6ee8-8a50-4756-b95e-c3b8e803622b|_45u6IpQ)(@[.\d]+)?(/[-%\w\d]+)?$    /books/astronomy/pages/1-introduction;
 ~/contents/(2e737be8-ea65-48c3-aa0a-9f35b4c6a966|LnN76Opl)(@[.\d]+)?:(7f11b6c9-3774-45f2-89e7-65c0196f6c29|fxG2yTd0)(@[.\d]+)?(/[-%\w\d]+)?$    /books/astronomy/pages/1-1-the-nature-of-astronomy;
 ~/contents/(2e737be8-ea65-48c3-aa0a-9f35b4c6a966|LnN76Opl)(@[.\d]+)?:(c2150b0b-4881-42c7-83b2-ad766c79d36a|whULC0iB)(@[.\d]+)?(/[-%\w\d]+)?$    /books/astronomy/pages/1-2-the-nature-of-science;
@@ -610,7 +610,7 @@
 ~/contents/(2e737be8-ea65-48c3-aa0a-9f35b4c6a966|LnN76Opl)(@[.\d]+)?:(abd4b491-1fd8-418f-8a46-c0c9f96df944|q9S0kR_Y)(@[.\d]+)?(/[-%\w\d]+)?$    /books/astronomy/pages/1-7-the-universe-on-the-large-scale;
 ~/contents/(2e737be8-ea65-48c3-aa0a-9f35b4c6a966|LnN76Opl)(@[.\d]+)?:(15fa90be-da2d-48d6-bae9-f3b84d1d3960|FfqQvtot)(@[.\d]+)?(/[-%\w\d]+)?$    /books/astronomy/pages/1-8-the-universe-of-the-very-small;
 ~/contents/(2e737be8-ea65-48c3-aa0a-9f35b4c6a966|LnN76Opl)(@[.\d]+)?:(bc9a9cec-f111-457a-8360-f3dfcdbfa410|vJqc7PER)(@[.\d]+)?(/[-%\w\d]+)?$    /books/astronomy/pages/1-9-a-conclusion-and-a-beginning;
-~/contents/(2e737be8-ea65-48c3-aa0a-9f35b4c6a966|LnN76Opl)(@[.\d]+)?:(ccc952ad-6190-5252-9aa7-02d64ed6a649|zMlSrWGQ)(@[.\d]+)?(/[-%\w\d]+)?$    /books/astronomy/pages/1-for-further-exploration;
+~/contents/(2e737be8-ea65-48c3-aa0a-9f35b4c6a966|LnN76Opl)(@[.\d]+)?:(b31f396c-fce7-58a6-bf65-5f5b1490945a|sx85bPzn)(@[.\d]+)?(/[-%\w\d]+)?$    /books/astronomy/pages/1-for-further-exploration;
 ~/contents/(2e737be8-ea65-48c3-aa0a-9f35b4c6a966|LnN76Opl)(@[.\d]+)?:(9271443c-a5f7-5b33-89b8-d25fe75a866c|knFEPKX3)(@[.\d]+)?(/[-%\w\d]+)?$    /books/astronomy/pages/2-observing-the-sky-the-birth-of-astronomy;
 ~/contents/(2e737be8-ea65-48c3-aa0a-9f35b4c6a966|LnN76Opl)(@[.\d]+)?:(5669c796-2b05-4a8f-96ac-85939b9b32af|VmnHlisF)(@[.\d]+)?(/[-%\w\d]+)?$    /books/astronomy/pages/2-thinking-ahead;
 ~/contents/(2e737be8-ea65-48c3-aa0a-9f35b4c6a966|LnN76Opl)(@[.\d]+)?:(8c5081ca-2ce9-44b9-8491-bfa4d6948d6e|jFCByizp)(@[.\d]+)?(/[-%\w\d]+)?$    /books/astronomy/pages/2-1-the-sky-above;
