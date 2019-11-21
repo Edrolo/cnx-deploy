@@ -3,7 +3,7 @@ ansible_ssh_pipelining: true
 
 # root_prefix: ""
 
-postgres_version: 9.4
+postgres_version: 9.5
 
 default_archive_base_port: 6500
 default_publishing_base_port: 6600
