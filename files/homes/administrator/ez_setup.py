@@ -41,7 +41,7 @@ def _check_call_py24(cmd, *args, **kwargs):
     res = subprocess.call(cmd, *args, **kwargs)
     class CalledProcessError(Exception):
         pass
-    if not res == 0:
+    if res != 0:
         msg = "Command '%s' return non-zero exit status %d" % (cmd, res)
         raise CalledProcessError(msg)
 vars(subprocess).setdefault('check_call', _check_call_py24)
@@ -183,10 +183,9 @@ def has_powershell():
     cmd = ['powershell', '-Command', 'echo test']
     devnull = open(os.path.devnull, 'wb')
     try:
-        try:
-            subprocess.check_call(cmd, stdout=devnull, stderr=devnull)
-        except:
-            return False
+        subprocess.check_call(cmd, stdout=devnull, stderr=devnull)
+    except:
+        return False
     finally:
         devnull.close()
     return True
@@ -201,10 +200,9 @@ def has_curl():
     cmd = ['curl', '--version']
     devnull = open(os.path.devnull, 'wb')
     try:
-        try:
-            subprocess.check_call(cmd, stdout=devnull, stderr=devnull)
-        except:
-            return False
+        subprocess.check_call(cmd, stdout=devnull, stderr=devnull)
+    except:
+        return False
     finally:
         devnull.close()
     return True
@@ -219,10 +217,9 @@ def has_wget():
     cmd = ['wget', '--version']
     devnull = open(os.path.devnull, 'wb')
     try:
-        try:
-            subprocess.check_call(cmd, stdout=devnull, stderr=devnull)
-        except:
-            return False
+        subprocess.check_call(cmd, stdout=devnull, stderr=devnull)
+    except:
+        return False
     finally:
         devnull.close()
     return True
