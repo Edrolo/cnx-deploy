@@ -34,31 +34,25 @@ def flatten_tree(tree):
     ])
     if 'contents' in tree:
         for x in tree['contents']:
-            for y in flatten_tree(x):
-                yield y
+            yield from flatten_tree(x)
 
 def first_leaf(tree):
     """Find the first leaf node (Page) in the tree."""
-    if 'contents' in tree:
-        x = tree['contents'][0]
-        return first_leaf(x)
-    else:
+    if 'contents' not in tree:
         return tree
+    x = tree['contents'][0]
+    return first_leaf(x)
 
 def rex_uri(book, page):
-    if page is None:
-        uri = f'/books/{book}'
-    else:
-        uri = f'/books/{book}/pages/{page}'
-    return uri
+    return f'/books/{book}' if page is None else f'/books/{book}/pages/{page}'
 
 
 def cnx_uri_regex(book, page):
-    if page is None:
-        uri_regex = f"/contents/({book['id']}|{book['short_id']})(@[.\d]+)?(/[-%\w\d]+)?$"
-    else:
-        uri_regex = f"/contents/({book['id']}|{book['short_id']})(@[.\d]+)?:({page['id']}|{page['short_id']})(@[.\d]+)?(/[-%\w\d]+)?$"
-    return uri_regex
+    return (
+        f"/contents/({book['id']}|{book['short_id']})(@[.\d]+)?(/[-%\w\d]+)?$"
+        if page is None
+        else f"/contents/({book['id']}|{book['short_id']})(@[.\d]+)?:({page['id']}|{page['short_id']})(@[.\d]+)?(/[-%\w\d]+)?$"
+    )
 
 
 def expand_tree_node(node):
